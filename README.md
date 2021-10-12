@@ -36,7 +36,7 @@ Now, we will walk you through the steps to create a smoothed ViT on the CIFAR-10
 
 *The entry point of our code is [main.py](src/main.py) (see the file for a full description of arguments).* 
 
-First we will train the base classifier with ablations as data augmentation. Then we will apply derandomizd smoothing to build a smoothed version of the model which is certifiable robust.
+First we will train the base classifier with ablations as data augmentation. Then we will apply derandomizd smoothing to build a smoothed version of the model which is certifiably robust.
 
 ### Training the base classifier
 
