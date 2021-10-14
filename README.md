@@ -113,7 +113,7 @@ We have uploaded the most important models. If you need any other model (for the
 # Maintainers
 
 * [Hadi Salman](https://twitter.com/hadisalmanX)
-* [Saachi Jain](https://twitter.com/saach_jain)
+* [Saachi Jain](https://twitter.com/saachi_jain_)
 * [Eric Wong](https://twitter.com/RICEric22) 
 * [Aleksander Madry](https://twitter.com/aleks_madry) 
 
