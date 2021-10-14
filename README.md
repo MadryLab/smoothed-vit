@@ -5,14 +5,14 @@ This repository contains the code for replicating the results of our paper:
 **Certified Patch Robustness via Smoothed Vision Transformers** </br>
 *Hadi Salman\*, Saachi Jain\*, Eric Wong\*, Aleksander Madry*
 
-Paper: coming soon <br>
-Blog post: coming soon <br>
+[Paper](https://gradientscience.org/certivited.pdf) <br>
+Blog post [Part I](https://gradientscience.org/smoothing). <br>
+Blog post [Part II](https://gradientscience.org/smoothed-vit). <br>
 
 ```bibtex
-    @InProceedings{salman2021certified,
+    @article{salman2021certified,
         title={Certified Patch Robustness via Smoothed Vision Transformers},
         author={Hadi Salman and Saachi Jain and Eric Wong and Aleksander Madry},
-        booktitle={ArXiv preprint arXiv:TODO},
         year={2021}
     }
 ```
@@ -39,7 +39,7 @@ Now, we will walk you through the steps to create a smoothed ViT on the CIFAR-10
 
 *The entry point of our code is [main.py](src/main.py) (see the file for a full description of arguments).* 
 
-First we will train the base classifier with ablations as data augmentation. Then we will apply derandomizd smoothing to build a smoothed version of the model which is certifiable robust.
+First we will train the base classifier with ablations as data augmentation. Then we will apply derandomizd smoothing to build a smoothed version of the model which is certifiably robust.
 
 ### Training the base classifier
 
@@ -94,6 +94,21 @@ Now we are ready to apply derandomized smoothing to obtain certificates for each
 This will calculate the standard and certified accuracies of the smoothed model. The results will be dumped into `OUTDIR_CERT/demo/`.
 
 That's it! Now you can replicate all the results of our paper.
+
+## Download our ImageNet models
+*If you find our pretrained models useful, please consider [citing our work](#certified-patch-robustness-via-smoothed-vision-transformers).*
+
+### Models trained with column ablations 
+|Model| Ablation Size = 19 | 
+|---|:---:|
+|ResNet-18 | [LINK](https://www.dropbox.com/s/lwtqq8eaqj9dz7r/resnet18_k19.pt?dl=0) |
+|ResNet-50 | [LINK](https://www.dropbox.com/s/gzconk5z6bs82ki/resnet50_k19.pt?dl=0) |
+|WRN-101-2 | [LINK](https://www.dropbox.com/s/5jwlh26r9spn69u/wide_resnet101_2_k19.pt?dl=0) |
+|ViT-T | [LINK](https://www.dropbox.com/s/guuhvnygez5ff4x/deit_tiny_k19.pt?dl=0) | 
+|ViT-S | [LINK](https://www.dropbox.com/s/i618ypj4l6cta2p/deit_small_k19.pt?dl=0) | 
+|ViT-B | [LINK](https://www.dropbox.com/s/b1gizmn5jxrqh1y/deit_base_k19.pt?dl=0) | 
+
+We have uploaded the most important models. If you need any other model (for the sweeps for example) please let us know and we are happy to provide!
 
 # Maintainers
 
