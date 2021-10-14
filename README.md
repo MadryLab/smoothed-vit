@@ -97,7 +97,7 @@ That's it! Now you can replicate all the results of our paper.
 
 ### Models trained with column ablations 
 |Model| Ablation Size = 19 | 
-|---|:---:|:---:|
+|---|:---:|
 |ResNet-18 | LINK |
 |ResNet-50 | LINK |
 |WRN-101-2 | LINK |
