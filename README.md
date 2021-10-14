@@ -98,12 +98,12 @@ That's it! Now you can replicate all the results of our paper.
 ### Models trained with column ablations 
 |Model| Ablation Size = 19 | 
 |---|:---:|
-|ResNet-18 | LINK |
-|ResNet-50 | LINK |
-|WRN-101-2 | LINK |
-|ViT-T | LINK | 
-|ViT-S | LINK | 
-|ViT-B | LINK | 
+|ResNet-18 | [LINK](https://www.dropbox.com/s/lwtqq8eaqj9dz7r/resnet18_k19.pt?dl=0) |
+|ResNet-50 | [LINK](https://www.dropbox.com/s/gzconk5z6bs82ki/resnet50_k19.pt?dl=0) |
+|WRN-101-2 | [LINK](https://www.dropbox.com/s/5jwlh26r9spn69u/wide_resnet101_2_k19.pt?dl=0) |
+|ViT-T | [LINK](https://www.dropbox.com/s/guuhvnygez5ff4x/deit_tiny_k19.pt?dl=0) | 
+|ViT-S | [LINK](https://www.dropbox.com/s/i618ypj4l6cta2p/deit_small_k19.pt?dl=0) | 
+|ViT-B | [LINK](https://www.dropbox.com/s/b1gizmn5jxrqh1y/deit_base_k19.pt?dl=0) | 
 
 We have uploaded the most important models. If you need any other model (for the sweeps for example) please let us know and we are happy to provide!
 
