@@ -17,6 +17,9 @@ Blog post: coming soon <br>
     }
 ```
 
+<p>
+<img src="main_fig.png" width="1000" >
+</p>
 
 ## Getting started
 *Our code relies on the [MadryLab](http://madry-lab.ml/) public [robustness library](https://github.com/MadryLab/robustness), which will be automatically installed when you follow the instructions below.*
