@@ -92,6 +92,21 @@ This will calculate the standard and certified accuracies of the smoothed model.
 
 That's it! Now you can replicate all the results of our paper.
 
+## Download our ImageNet models
+*If you find our pretrained models useful, please consider [citing our work](#certified-patch-robustness-via-smoothed-vision-transformers).*
+
+### Models trained with column ablations 
+|Model| Ablation Size = 19 | Ablation Size = 25 |
+|---|:---:|:---:|
+|ResNet-18 | LINK | LINK |
+|ResNet-50 | LINK | LINK |
+|WRN-101-2 | LINK | LINK |
+|ViT-T | LINK | LINK |
+|ViT-S | LINK | LINK |
+|ViT-B | LINK | LINK |
+
+We have uploaded the most important models. If you need any other model (for the sweeps for example) please let us know and we are happy to provide!
+
 # Maintainers
 
 * [Hadi Salman](https://twitter.com/hadisalmanX)
