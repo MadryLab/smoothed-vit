@@ -10,10 +10,9 @@ Blog post [Part I](https://gradientscience.org/smoothing). <br>
 Blog post [Part II](https://gradientscience.org/smoothed-vit). <br>
 
 ```bibtex
-    @InProceedings{salman2021certified,
+    @article{salman2021certified,
         title={Certified Patch Robustness via Smoothed Vision Transformers},
         author={Hadi Salman and Saachi Jain and Eric Wong and Aleksander Madry},
-        booktitle={ArXiv preprint arXiv:TODO},
         year={2021}
     }
 ```
