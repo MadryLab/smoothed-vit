@@ -5,8 +5,9 @@ This repository contains the code for replicating the results of our paper:
 **Certified Patch Robustness via Smoothed Vision Transformers** </br>
 *Hadi Salman\*, Saachi Jain\*, Eric Wong\*, Aleksander Madry*
 
-Paper: coming soon <br>
-Blog post: coming soon <br>
+[Paper](https://gradientscience.org/certivited.pdf) <br>
+Blog post [Part I](https://gradientscience.org/smoothing). <br>
+Blog post [Part II](https://gradientscience.org/smoothed-vit). <br>
 
 ```bibtex
     @InProceedings{salman2021certified,
