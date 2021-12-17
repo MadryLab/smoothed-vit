@@ -109,6 +109,14 @@ That's it! Now you can replicate all the results of our paper.
 |ViT-S | [LINK](https://www.dropbox.com/s/i618ypj4l6cta2p/deit_small_k19.pt?dl=0) | 
 |ViT-B | [LINK](https://www.dropbox.com/s/b1gizmn5jxrqh1y/deit_base_k19.pt?dl=0) | 
 
+### Models trained with block ablations 
+|Model| Ablation Size = 75 | 
+|---|:---:|
+|ViT-T | [LINK](https://www.dropbox.com/s/4kqt60babq76ywx/deit_tiny_block_k75?dl=0) | 
+|ViT-S | [LINK](https://www.dropbox.com/s/f1p47rcd56hn1ku/deit_small_block_k75.pt?dl=0) | 
+|ViT-B | [LINK](https://www.dropbox.com/s/wu9vg9bw9r7rspw/deit_base_block_k75.pt?dl=0) | 
+
+
 We have uploaded the most important models. If you need any other model (for the sweeps for example) please let us know and we are happy to provide!
 
 # Maintainers
